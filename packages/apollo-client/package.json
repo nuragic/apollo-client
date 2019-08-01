@@ -1,5 +1,5 @@
 {
-  "name": "apollo-client",
+  "name": "@nuragic/apollo-client",
   "private": true,
   "version": "2.6.3",
   "description": "A simple yet functional GraphQL client.",
