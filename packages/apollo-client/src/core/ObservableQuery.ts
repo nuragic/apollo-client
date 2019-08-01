@@ -400,6 +400,7 @@ export class ObservableQuery<
     const subscription = this.queryManager
       .startGraphQLSubscription({
         query: options.document,
+        fetchPolicy: options.fetchPolicy,
         variables: options.variables,
       })
       .subscribe({

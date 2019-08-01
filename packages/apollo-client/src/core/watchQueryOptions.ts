@@ -142,6 +142,7 @@ export type SubscribeToMoreOptions<
 > = {
   document: DocumentNode;
   variables?: TSubscriptionVariables;
+  fetchPolicy?: FetchPolicy;
   updateQuery?: UpdateQueryFn<TData, TSubscriptionVariables, TSubscriptionData>;
   onError?: (error: Error) => void;
 };
